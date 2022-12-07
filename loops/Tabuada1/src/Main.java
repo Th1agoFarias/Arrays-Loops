@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Digite um valor para criar uma tabela: ");
         valor = scan.nextInt();
 
-        for(i =1; i<11; i++){
+        for(i =1; i<=10; i++){
             System.out.println(valor + "x" + i + "=" +(valor * i));
 
         }
